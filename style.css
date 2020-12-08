@@ -18,7 +18,7 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
 
 /* links */
@@ -137,22 +137,26 @@ nav h1 {
 footer {
     background-color: var(--primary-color);
     /* color: #fff; */
-    
+    padding: 1rem 0;
 }
 footer ul {
     padding-inline-start: 0px;
 }
 footer h2 {
     color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
 }
 .list-footer {
     text-align: center;
 }
 .list-footer-inline {
     display: inline;
+    margin-bottom: 1rem;
 }
 .list-footer-inline a {
     color: #fff;
     padding: 1rem;
+    /* margin-bottom: 1rem; */
     /* box-sizing: border-box; */
 }
