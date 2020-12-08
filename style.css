@@ -125,6 +125,10 @@ nav h1 {
 .span-primary {
     color: var(--primary-color);
 }
+.span-secondary {
+    background-color:var(--secondary-color);
+    padding: 0.5rem 0.7rem;
+}
 
 ul li .link-secondary {
     color: var(--primary-color);
