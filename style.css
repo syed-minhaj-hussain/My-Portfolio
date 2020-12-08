@@ -96,19 +96,41 @@ nav h1 {
     padding: 2rem;
     padding-top: 5rem;
 }
-.hero .hero-img{
+ .hero-img{
     max-width: 305px;
     margin: auto;
     display: block;
 }
+.pro {
+    /* padding: 2rem; */
+}
+.pro-heading {
+    /* padding-top: 1rem; */
+}
+.pro h1 {
+    /* padding: 1rem 0; */
+    text-align: center;
+    /* padding-top: 1.5rem; */
+    color: var(--gray-color);
+}
 .hero h1 {
     padding: 1rem 0;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     color: var(--gray-color);
 }
 .hero-heading {
     color: var(--primary-color);
+}
+.span-primary {
+    color: var(--primary-color);
+}
+
+ul li .link-secondary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 1.25rem;
+    padding: 0.3rem 1rem;
 }
 /* sections */
 .section {
