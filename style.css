@@ -3,7 +3,8 @@
 :root {
     --primary-color: #44d382
     ;
-    --secondary-color: yellow;
+    --secondary-color: #F3F4F6;
+    --gray-color :#6B7280;
 }
 body {
     font-family: 'Nunito', sans-serif;
@@ -34,11 +35,10 @@ body {
     font-size: 1.08rem;
 }
 .link-secondary {
-    background-color: var(--secondary-color);
+    
     padding: 0.5rem 0.7rem;
     margin: 0.5rem;
-    border-radius: 1.5rem;
-    color: #fff;
+    
     font-weight: bold;
     font-size: 1.08rem;
 }
@@ -65,42 +65,78 @@ nav h1 {
 .link {
     color: #fff;
     font-size: 1.08rem;
-    font-weight: 600;
+    /* font-weight  : 600; */
+}
+.navbar > .link {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .list-nav {
     text-align: right;
-    /* padding: 1rem 0; */
+    padding: 0 1rem;
 }
 .list-nav li {
     display: inline;
     /* padding: 0rem 1rem; */
     margin-left: 1rem;
 }
+.list-nav li a {
+    /* font-size: 1rem; */
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+.link-active {
+    font-weight: bold;
+}
 /* Header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img{
-    max-width: 320px;
+    max-width: 310px;
     margin: auto;
     display: block;
 }
 .hero h1 {
     padding: 1rem 0;
     text-align: center;
+    padding-top: 2rem;
+    color: var(--gray-color);
 }
 .hero-heading {
     color: var(--primary-color);
 }
 /* sections */
 .section {
-    padding: 1rem;
+    padding: 2rem;
 }
 .section-offwhite {
-    background-color: gray;
+    background-color: var(--secondary-color);
+}
+.section p {
+    font-size: 1.25rem;
+}
+.section h1 {
+    text-align: center;
+}
+.section .span-primary {
+    color: var(--primary-color);
+}
+.section .link-secondary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 1.25rem;
+    padding: 0.3rem 1rem;
 }
 
 /* footer */
+footer {
+    background-color: var(--primary-color);
+    /* color: #fff; */
+}
 footer ul {
     padding-inline-start: 0px;
 }
@@ -110,4 +146,7 @@ footer ul {
 .list-footer-inline {
     display: inline;
     padding: 1rem;
+}
+.list-footer-inline a {
+    color: #fff;
 }
