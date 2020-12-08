@@ -11,10 +11,6 @@ body {
     margin: 0;
     padding: 0;
 }
-p {
-    text-align: justify;
-}
-
 /* containers */
 .container {
     padding : 0 1rem;
