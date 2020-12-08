@@ -80,7 +80,7 @@ nav h1 {
 .list-nav li {
     display: inline;
     /* padding: 0rem 1rem; */
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 .list-nav li a {
     /* font-size: 1rem; */
