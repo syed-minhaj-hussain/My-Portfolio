@@ -61,6 +61,7 @@ nav h1 {
     color: #fff;
     padding: 0.5rem;
     border-bottom-left-radius: 1.8rem;
+    box-sizing: border-box;
 }
 .link {
     color: #fff;
